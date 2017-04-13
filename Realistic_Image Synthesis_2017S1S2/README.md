@@ -1,0 +1,1 @@
+### 2017S1S2 / 4850-1025 先端人工知能論I / Frontier Artificial Intelligence I / 原田 達也,松尾 豊,中山 浩太郎,中山 英樹,牛久 祥孝,國吉 康夫
