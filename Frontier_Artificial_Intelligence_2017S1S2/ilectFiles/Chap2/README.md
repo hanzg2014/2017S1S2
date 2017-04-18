@@ -24,7 +24,6 @@ def Q2(A, B, C, x):
     Return: 
         A_ik x_k B_kj - C_ji (k-index summed [0 to m-1])
     """
-    # CODEME
     return np.einsum('lm,m,mn->ln', A,x,B) - C.T
 ```
 Q3
@@ -38,7 +37,6 @@ def Q3(x, a):
     Return:
         numpy array with the same shape as x
     """
-    # CODEME
     return x[np.linalg.norm(x-a,axis = 1).argsort()]
 ```
 Q4
@@ -52,7 +50,6 @@ def Q4(M, N, x0, x1, y0, y1):
     Return:
         the sum over region in (x0, x1), (y0, y1)
     """
-    # CODEME
     return np.arange(M*N).reshape(N,M)[y0:y1+1,x0:x1+1].sum()
 ```
 Q5_1
@@ -66,7 +63,6 @@ def Q5_1(x):
     Return:
         numpy array, one-hot expression of x
     """
-    # CODEME
     row = len(x)
     col = x.max()+1
     z = np.zeros(row*col).reshape(row,col)
@@ -84,7 +80,6 @@ def Q5_2(x):
     Return:
         one-dimensional numpy array, category expression of x
     """
-    # CODEME
     return np.where(x == 1)[1]
 ```
 Q6
@@ -98,7 +93,6 @@ def Q6(m, n):
     Return:
         numpy array with shape (m,n)
     """
-    # CODEME
     return (np.arange(n)[:,np.newaxis] + 1)*(np.arange(m) + 1) 
 ```
 Q7
@@ -111,6 +105,5 @@ def Q7(x):
         numpy array 1 dimension
         each component is x[i+1] - x[i]  
     """
-    # CODEME
     return x[1:] - x[:-1]
 ```
