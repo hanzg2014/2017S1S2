@@ -1,5 +1,5 @@
 # 答えを書く欄
-- Q1
+Q1
 ```
 Q1_1 = 'ABC'  
 Q1_2 = 'AC'  
@@ -10,6 +10,7 @@ import numpy
 ```
 import numpy as np
 ```
+Q2
 ```
 def Q2(A, B, C, x):
     """
@@ -26,7 +27,7 @@ def Q2(A, B, C, x):
     # CODEME
     return np.einsum('lm,m,mn->ln', A,x,B) - C.T
 ```
-
+Q3
 ```
 def Q3(x, a):
     """
@@ -40,7 +41,7 @@ def Q3(x, a):
     # CODEME
     return x[np.linalg.norm(x-a,axis = 1).argsort()]
 ```
-
+Q4
 ```
 def Q4(M, N, x0, x1, y0, y1):
     """
@@ -54,7 +55,7 @@ def Q4(M, N, x0, x1, y0, y1):
     # CODEME
     return np.arange(M*N).reshape(N,M)[y0:y1+1,x0:x1+1].sum()
 ```
-
+Q5_1
 ```
 def Q5_1(x):
     """
@@ -72,7 +73,7 @@ def Q5_1(x):
     z[np.arange(row),x] = 1
     return z
 ```
-
+Q5_2
 ```
 def Q5_2(x):
     """
@@ -86,7 +87,7 @@ def Q5_2(x):
     # CODEME
     return np.where(x == 1)[1]
 ```
-
+Q6
 ```
 def Q6(m, n):
     """
@@ -100,7 +101,7 @@ def Q6(m, n):
     # CODEME
     return (np.arange(n)[:,np.newaxis] + 1)*(np.arange(m) + 1) 
 ```
-
+Q7
 ```
 def Q7(x):
     """
