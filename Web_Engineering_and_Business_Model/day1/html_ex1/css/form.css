@@ -1,0 +1,24 @@
+#apply-form{
+	background: #fff;
+	color: #333;
+	font-size: 14px;
+	margin: 30px auto;
+	padding: 20px 0px;
+	border-radius: 5px;        /* CSS3草案 */
+	 -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+	 -moz-border-radius: 5px;   /* Firefox用 */
+}
+
+#apply-form p{
+	text-align: center;
+}
+
+.ss-form-question{
+	width: 300px;
+	margin: 10px auto 20px;
+}
+
+#ss-submit,.ss-q-short{
+	width: 100%;
+	margin: 10px 0px;
+}

@@ -1,0 +1,40 @@
+<!-- templates/index3.html -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>test3</title>
+    <!-- CSSファイルを追加 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  </head>
+  <body>
+    <p>Getで情報を返してもらう</p>
+    <form action="/echo" method="GET">
+      <input name="text">
+      <input type="submit" value="Echo">
+
+    <p>Getterでリストで渡し、値を返してもらう</p>
+    </form>
+
+    <form action="/getter" method="GET">
+    <table>
+      <tr>
+        <td><input type="checkbox"  name="data" value="hage">&nbsp;hage&nbsp;</td>
+        <td><input type="checkbox"  name="data" value="hige">&nbsp;hige&nbsp;</td>
+        <td><input type="checkbox"  name="data" value="hoge">&nbsp;hoge&nbsp;</td>
+        <td><input type="checkbox"  name="data" value="huge">&nbsp;huge&nbsp;</td>
+        <input type="submit" value="submit">
+      </tr>
+    </table>
+    </form>
+
+    <p>Postでで渡し、値を返してもらう</p>
+    </form>
+
+    <form action="/a/post_request" method="POST">
+      <input name="username">
+      <input type="submit" value="submit">
+    </form>
+
+  </body>
+</html>

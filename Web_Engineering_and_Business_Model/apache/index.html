@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!-- 演習1 : 'Hello World' してみる -->
+<html>
+     <head>
+     <!-- 日本語も正しく表示できるように -->
+     <meta charset="UTF-8">  
+          <title>Web工学テスト</title>
+     </head>
+     <body>
+		<h1> Hello world :) </h1>
+		<p> Hello web工学 :) </p>
+
+<!-- 演習2 : 文字に関わるタグ -->
+		<h1>見出し</h1>
+		<h2>見出し</h2>
+		<h3>見出し</h3>
+		<h4>見出し</h4>
+		<h5>見出し</h5>
+
+		<ul>
+		    <li>リスト</li>
+		    <li>リスト</li>
+		    <li>リスト</li>
+		    <li>リスト</li>
+		</ul>
+		<div>段落のかたまり</div>
+		<span>段落のかたまり</span>
+
+<!-- 演習2 : リンクするためのタグ -->
+		<a href="example.com" target="_blank">リンク</a>
+		<img src="img/test.png" width="300" />
+
+
+
+<!-- 演習3 : Class や ID で属性を与える -->
+<!--    タグ要素には、idとclassで属性を与えられる
+    	class は 同種のカテゴリの要素に、複数割当できる -->
+
+		<p class="artist">水木しげる</p>
+		<p class="artist">ウォルト・ディズニー</p>
+		<!-- id は コンテンツ内に基本的に、一つだけ割り当てられる -->
+		<p id="myname">水木しげる</p>
+
+
+		<form action="post_res.php" method="post">
+		     <input type="text" name="food">好物
+		     <input type="number" name="num1">身長
+		     <input type="number" name="num2">体重
+		     <input type="submit" value="BMI">
+		</form>
+
+
+
+     </body>
+</html>
