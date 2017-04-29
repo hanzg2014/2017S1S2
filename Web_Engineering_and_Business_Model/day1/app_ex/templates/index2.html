@@ -1,0 +1,18 @@
+<!-- templates/index2.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test2</title>
+
+    <!-- CSSファイルを追加 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <p>{{ message }} world !!!</p>
+    <!-- 画像読み込みを追加 -->
+    <h1>Seaboard RISE</h1>
+    <div class="photo"><img src="{{ url_for('static', filename='image.jpg') }}"><div>
+</body>
+</html>
