@@ -1,3 +1,4 @@
+```
 N0 = 784
 N1 = 400
 N2 = 100
@@ -82,7 +83,7 @@ def test(x):
     y = np.argmax(z3, axis = 1)
 
     return y
-
+    
 def homework(train_X, train_y, test_X):
     # WRITE ME!
     for epoch in range(30):
@@ -92,3 +93,4 @@ def homework(train_X, train_y, test_X):
             train(x, y)
     pred_y = test(test_X)
     return pred_y
+```
