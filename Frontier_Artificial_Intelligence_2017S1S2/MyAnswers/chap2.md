@@ -1,17 +1,20 @@
-# 答えを書く欄
-Q1
+#2017S1S2　先端人工知能論I 宿題Chapter2
+
+
+Numpyタスク
+---
+
+### Answer Cell
+
 ```
-Q1_1 = 'ABC'  
-Q1_2 = 'AC'  
-Q1_3 = 'AC'  
-Q1_4 = 'ABC'  
-```
-import numpy
-```
+Q1_1 = 'ABC'
+Q1_2 = 'AC'
+Q1_3 = 'AC'
+Q1_4 = 'ABC'
+
 import numpy as np
-```
-Q2
-```
+
+
 def Q2(A, B, C, x):
     """
     Description: 
@@ -25,9 +28,8 @@ def Q2(A, B, C, x):
         A_ik x_k B_kj - C_ji (k-index summed [0 to m-1])
     """
     return np.einsum('lm,m,mn->ln', A,x,B) - C.T
-```
-Q3
-```
+
+
 def Q3(x, a):
     """
     Description:
@@ -38,9 +40,8 @@ def Q3(x, a):
         numpy array with the same shape as x
     """
     return x[np.linalg.norm(x-a,axis = 1).argsort()]
-```
-Q4
-```
+
+
 def Q4(M, N, x0, x1, y0, y1):
     """
     Description:
@@ -51,9 +52,8 @@ def Q4(M, N, x0, x1, y0, y1):
         the sum over region in (x0, x1), (y0, y1)
     """
     return np.arange(M*N).reshape(N,M)[y0:y1+1,x0:x1+1].sum()
-```
-Q5_1
-```
+
+
 def Q5_1(x):
     """
     Description:
@@ -68,9 +68,8 @@ def Q5_1(x):
     z = np.zeros(row*col).reshape(row,col)
     z[np.arange(row),x] = 1
     return z
-```
-Q5_2
-```
+
+
 def Q5_2(x):
     """
     Description:
@@ -81,9 +80,8 @@ def Q5_2(x):
         one-dimensional numpy array, category expression of x
     """
     return np.where(x == 1)[1]
-```
-Q6
-```
+
+
 def Q6(m, n):
     """
     Description:
@@ -94,9 +92,8 @@ def Q6(m, n):
         numpy array with shape (m,n)
     """
     return (np.arange(n)[:,np.newaxis] + 1)*(np.arange(m) + 1) 
-```
-Q7
-```
+
+
 def Q7(x):
     """
     Arguments:
@@ -106,4 +103,5 @@ def Q7(x):
         each component is x[i+1] - x[i]  
     """
     return x[1:] - x[:-1]
+  
 ```

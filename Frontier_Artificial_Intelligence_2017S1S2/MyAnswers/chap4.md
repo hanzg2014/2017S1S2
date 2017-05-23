@@ -1,8 +1,15 @@
-## Answer Cell
+#2017S1S2　先端人工知能論I 宿題Chapter4
+
+MLP(Multi-Layer Perceptron)でMNISTを識別
+
+---
+
+### Answer Cell
 
 ```
+
 N0 = 784
-N1 = 400
+N1 = 300
 N2 = 100
 N3 = 10
 
@@ -95,4 +102,5 @@ def homework(train_X, train_y, test_X):
             train(x, y)
     pred_y = test(test_X)
     return pred_y
+
 ```
