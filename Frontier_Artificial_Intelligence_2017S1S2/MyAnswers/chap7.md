@@ -1,6 +1,8 @@
-# 2017S1S2　先端人工知能論I 宿題7
+#2017S1S2　先端人工知能論I 宿題Chapter7
 
-CNNを実装し、MNIST手書き文字を識別
+課題. CNNを実装し、MNIST手書き文字を識別
+
+---
 
 ### Answer Cell
 

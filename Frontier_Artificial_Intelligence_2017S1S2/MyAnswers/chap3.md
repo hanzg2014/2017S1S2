@@ -1,6 +1,6 @@
 #2017S1S2　先端人工知能論I 宿題Chapter3
 
-KNNを実装し、MNISTを識別する
+課題. KNNを実装し、MNISTを識別する
 
 ---
 

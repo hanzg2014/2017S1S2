@@ -1,7 +1,7 @@
 #2017S1S2　先端人工知能論I 宿題Chapter2
 
+課題. Numpyタスク
 
-Numpyタスク
 ---
 
 ### Answer Cell

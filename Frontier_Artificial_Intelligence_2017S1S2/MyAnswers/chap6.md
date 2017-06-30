@@ -1,6 +1,6 @@
-#2017S1S2　先端人工知能論I Chapter６
+#2017S1S2　先端人工知能論I 宿題Chapter6
 
-AutoEncoderをTensorFlowで実装し、MNISTを識別
+課題. AutoEncoderをTensorFlowで実装し、MNISTを識別
 
 ---
 
