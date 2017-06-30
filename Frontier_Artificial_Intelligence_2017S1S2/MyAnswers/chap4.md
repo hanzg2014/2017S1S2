@@ -1,4 +1,4 @@
-#2017S1S2　先端人工知能論I 宿題Chapter4
+# 2017S1S2　先端人工知能論I 宿題Chapter4
 
 課題. MLP(Multi-Layer Perceptron)でMNISTを識別
 

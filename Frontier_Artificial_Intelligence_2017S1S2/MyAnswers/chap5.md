@@ -1,4 +1,4 @@
-#2017S1S2　先端人工知能論I 宿題Chapter5
+# 2017S1S2　先端人工知能論I 宿題Chapter5
 
 課題. Tensorflowを用いて, MNISTを多層パーセプトロン(MLP)で学習せよ
 

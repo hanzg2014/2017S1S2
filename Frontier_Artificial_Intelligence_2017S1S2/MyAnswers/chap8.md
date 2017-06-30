@@ -1,4 +1,4 @@
-#2017S1S2　先端人工知能論I 宿題Chapter8
+# 2017S1S2　先端人工知能論I 宿題Chapter8
 
 課題. Tensorflowを用いて, CIFAR-10を畳み込みニューラルネットワーク(CNN)で学習せよ
 

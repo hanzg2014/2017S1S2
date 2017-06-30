@@ -1,4 +1,4 @@
-#2017S1S2　先端人工知能論I 宿題Chapter10
+# 2017S1S2　先端人工知能論I 宿題Chapter10
 
 課題.  RNN Encoder-Decoderで英日翻訳のモデルを実装せよ
 
